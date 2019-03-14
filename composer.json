@@ -2,5 +2,28 @@
     "name": "rubic/magento2-module-clean-checkout",
     "description": "A drop-in replacement for the Magento 2 checkout.",
     "license": "MIT",
-    "type": "metapckage"
+    "type": "metapackage",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "require" : {
+	"geoip2/geoip2": "^2.0",
+        "hybridauth/hybridauth": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rubic\\CleanCheckoutTheme\\": "",
+	    "Rubic\\CleanCheckoutSocial\\": "",
+	    "Rubic\\CleanCheckoutNewsletter\\": "",
+	    "Rubic\\CleanCheckoutGeo\\": "",
+	    "Rubic\\CleanCheckoutAutocomplete\\":"",
+	    "Rubic\\CleanCheckout\\" :""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
 }
+
