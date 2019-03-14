@@ -1,0 +1,6 @@
+{
+    "name": "rubic/magento2-module-clean-checkout",
+    "description": "A drop-in replacement for the Magento 2 checkout.",
+    "license": "MIT",
+    "type": "metapckage"
+}

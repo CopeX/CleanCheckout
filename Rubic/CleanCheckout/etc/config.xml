@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+    Copyright © 2018 Rubic. All rights reserved.
+    See LICENSE.txt for license details.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <clean_checkout>
+            <general>
+                <force_totals_full_mode>1</force_totals_full_mode>
+                <default_shipping_method>flatrate_flatrate</default_shipping_method>
+                <move_cart_items>1</move_cart_items>
+                <always_show_cart_items>1</always_show_cart_items>
+                <redirect_to_checkout>0</redirect_to_checkout>
+                <step_transition_speed>500</step_transition_speed>
+            </general>
+            <cleanup>
+                <disable_company>1</disable_company>
+                <disable_telephone>0</disable_telephone>
+                <disable_header>0</disable_header>
+                <disable_footer>0</disable_footer>
+                <disable_copyright>0</disable_copyright>
+                <display_logo>0</display_logo>
+                <disable_login_popup>1</disable_login_popup>
+                <disable_discount>0</disable_discount>
+            </cleanup>
+            <shipping>
+                <hide_shipping_methods>1</hide_shipping_methods>
+                <hide_shipping_title>1</hide_shipping_title>
+                <shipping_validate_delay>500</shipping_validate_delay>
+            </shipping>
+            <field_order>
+                <firstname>20</firstname>
+                <middlename>30</middlename>
+                <lastname>40</lastname>
+                <company>60</company>
+                <street>70</street>
+                <city>80</city>
+                <region_id>100</region_id>
+                <postcode>110</postcode>
+                <country_id>115</country_id>
+                <telephone>120</telephone>
+                <vat_id>140</vat_id>
+            </field_order>
+        </clean_checkout>
+    </default>
+</config>
